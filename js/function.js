@@ -8,7 +8,11 @@
  * @param {string} userWord
  * @returns {boolean}
  */
+
 function isPalindroma(userWord) {
-    let wordReverse = userWord.toLowerCase().split("").reverse().join("");
-    return userword.toLowerCase() === wordReverse;
+    let reverseWord = ""
+    for (let i = userWord.length - 1; i >= 0; i--) {
+        reverseWord += userWord[i]
+    }
+    return userWord === reverseWord;
 }

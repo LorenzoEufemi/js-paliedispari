@@ -1,7 +1,7 @@
 // DATI
 const userWord = prompt("Inserire una parola:");
 
-// ESECUZIONE
+// OUTPUT
 if (isPalindroma(userWord) ) {
     console.log(`La parola ${userWord} è palindroma.`)
 } else {
